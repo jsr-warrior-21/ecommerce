@@ -1,0 +1,8 @@
+.slick-dots li button:before {
+  color: #555 !important;          
+  font-size: 12px;
+}
+
+.dark .slick-dots li button:before {
+  color: #fff !important;            
+}
