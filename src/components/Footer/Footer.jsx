@@ -20,7 +20,7 @@ const Footer = () => {
   return (
     <div className='text-white bg-[#212529]'>
       <div className='container'>
-        <div data-aos='zoom-in' className='grid md:grid-cols-3 pb-44 pt-5'>
+        <div data-aos='zoom-in' className='grid md:grid-cols-3 pb-30 pt-5'>
 
           {/* Brand Section */}
           <div className='py-8 px-4'>
@@ -79,6 +79,12 @@ const Footer = () => {
           </div>
 
         </div>
+      </div>
+      <div className=' w-full flex   justify-center items-center pb-3 '>
+        <div className=' w-full border-t-[1px] border-gray-300 px-0 pt-2 text-center md:px-80'>
+               © 2025 ShopMe. All Rights Reserved
+        </div>
+         
       </div>
     </div>
   );
